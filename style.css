@@ -1,0 +1,191 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.button:hover{
+    color: white;
+}
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.hg {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+    opacity: 0.8;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+
+.nastya{
+    position: fixed;
+  background-color: #133aac;
+    top: 250px;
+    left: 650px;
+    display: flex;
+   justify-content: center;
+   border-radius:5px ;
+   color: white;
+  align-items: center;
+}
+
+h1::after{
+    content: "";
+    background-image: url("https://cdn.pixabay.com/photo/2019/10/23/15/35/sale-4571926_1280.png");
+    background-color: black;
+    background-size: contain;
+    display: inline-block;
+
+height:125px ;
+width: 200px;
+}
+
+.address::before{
+    background-image:url("https://cdn.pixabay.com/photo/2016/03/31/18/42/home-1294564_1280.png") ;
+    background-size: contain;
+    display: inline-block;
+    content: "";
+    height:40px ;
+width: 40px;
+}
+
+.tel::before{
+     background-image:url("https://cdn.pixabay.com/photo/2016/11/17/16/05/icons-1831922_1280.png") ;
+    background-size: contain;
+    display: inline-block;
+    content: "";
+    height:40px ;
+width: 40px;
+}
+
+
+a:hover{
+  color: #36bbce;
+ font-size: 25px;
+}
+
+
+.post:hover{
+    background-color: rgb(80, 191, 185);
+    border-radius: 10 px;
+}
+
+.hg:hover{
+color: #36bbce;
+background-color: lightblue;
+border-radius: 10 px;
+font-size: 30 px;
+}
+
+
+
+.post:hover  .hg:hover {
+    opacity: 1;
+}
+
+.post{
+    background-color: rgb(207, 232, 232);
+}
+
+.hh{
+    color: black;
+}
+
+footer{
+    background-color: rgb(207, 232, 232);
+}
